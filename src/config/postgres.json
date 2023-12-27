@@ -1,0 +1,30 @@
+{
+    "development": {
+        "client": "postgresql",
+        "connection": {
+            "host": "localhost",
+            "user": "postgres",
+            "password": "postgres",
+            "database": "modfy",
+            "port": 5432
+        },
+        "useNullAsDefault": true
+    },
+    "production": {
+        "client": "postgresql",
+        "connection": {
+            "host": "localhost",
+            "user": "postgres",
+            "password": "postgres",
+            "database": "modfy",
+            "port": 5432
+        },
+        "pool": {
+            "min": 2,
+            "max": 300
+        },
+        "migrations": {
+            "tableName": "knex_migrations"
+        }
+    }
+}

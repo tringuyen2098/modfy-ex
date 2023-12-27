@@ -1,0 +1,13 @@
+{
+    "error.server": "Oops! Something went wrong ...",
+    "success": "Success",
+    "data.invalid": "Data invalid",
+    "phone.invalid": "Phone number invalid",
+    "email.invalid": "Email invalid",
+    "email.or.user.exists": "Username or email is exists",
+    "create.account.failed": "Create account failed",
+    "create.account.success": "Create account success",
+    "active.acounnt.failed" : "Active account failed",
+    "active.account.success": "Active success",
+    "too.many.requests": "Too Many Requests"
+}
